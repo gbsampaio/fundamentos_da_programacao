@@ -30,3 +30,7 @@ not -> Ele altera o valor booleano da condição.
  elif(senao se) -> é usado para testar várias condicoes. Ele só executa se todas as condicoes anteriores forem falsas.
  else (senao) -> Executa o código se a condicao if for false (false).
 
+## Boas Práticas
+1. Qualquer variável em python utiliza o padrão de case snake_case ou recentemente o cammelCase.
+2. Se você observar alguma estrutura tipo nome (), 90% de chance de ser uma função.
+3. Python não tem constante, porém utilizamos o padrão case UPPERCASE, para simular aquela variável não pode ser alterada.
