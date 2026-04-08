@@ -12,8 +12,9 @@ tempo_de_trabalho = float(input("Informe seu tempo de serviço em anos:"))
 #            Exemplo: Dinheiro, altura, tempo fracionado (2500.50, 1.75, 2.5).
 
 
+print(f"A idade informada é {idade} {'ano' if idade == 1 else 'anos'}, a renda informada é {salário} {"real" if salário== 1 else "reais"}, o tempo de trabalho informado é {tempo_de_trabalho} {'ano' if tempo_de_trabalho == 1 else 'anos'}")
 
-print (f" a idade informada é {idade}, a renda informada é {salário}, o tempo de trabalho informado é {tempo_de_trabalho}")
+
 
 if idade < 18:
  print("empréstimo negado por conta da idade")

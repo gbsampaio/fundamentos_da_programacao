@@ -1,36 +1,40 @@
-# anotacoes de fundamentos da programacao
+# ANOTAÇÕES DE FUNDAMENTOS DA PROGRAMAÇÃO
 
-## tipos de dados em python
+## Tipos de dados em python
 1. string
 2. number int
 3. number float
 4. boolean
 
-
-## Operadores matematicos - basicos
-+ -> adicao
-- -> subtracao
-* -> multiplicacao
-/ -> divisao
+## Operadores matemáticos - básicos
++ -> adição
+- -> subtração
+* -> multiplicação
+/ -> divisão
 
 ## Operadores lógicos
-and -> e -> Se duas condições forem verdadeira, o resultado é verdadeiro
+and -> e -> Se duas condições forem verdadeira, o resultado é verdadeiro.
 or -> ou -> Se pelo menos uma condição for verdadeira, o resultado é verdadeiro.
 not -> Ele altera o valor booleano da condição.
 
-
-## metodos em python
-1. print () -> Exibe informacoes no terminal.
-2. Input () -> Capturar uma informação no terminal.
+## Métodos em python
+1. print() -> Exibe informações no terminal.
+2. input() -> Capturar uma informação no terminal.
 
 ## Format em python
-# Estrutura de repetica
 
- if (se) -> Verifica se uma condicao é true (verdadeira). Se for, ele executa o código
- elif(senao se) -> é usado para testar várias condicoes. Ele só executa se todas as condicoes anteriores forem falsas.
- else (senao) -> Executa o código se a condicao if for false (false).
+# Estrutura de repetição
+``if (se)`` -> Verifica se uma condição é true(verdadeira).Se for, ele executa o código.
+``elif (senão se)`` -> é usado para testar várias condições. Ele só executa se todas as condições anteriores forem falsas.
+``else (senão)`` -> Executa o código se a condição if for false(falsa).
+
+## Conversão de tipos em python
+1. int() -> A gente vai incluir qual variável/dado que queremos converter para número inteiro.
+2. float() -> A gente vai incluir qual variável/dado que queremos converter para número decimal.
+3. str() -> A gente vai incluir qual variável/dado que queremos converter para texto.
 
 ## Boas Práticas
 1. Qualquer variável em python utiliza o padrão de case snake_case ou recentemente o cammelCase.
-2. Se você observar alguma estrutura tipo nome (), 90% de chance de ser uma função.
-3. Python não tem constante, porém utilizamos o padrão case UPPERCASE, para simular aquela variável não pode ser alterada.
+2. Se você observar alguma estrutura tipo nome(), 90% de chance de ser uma função.
+3. Python não tem constante, porém utilizamos o padrão case
+UPPERCASE,para simular que aquela variável não pode ser alterada.
